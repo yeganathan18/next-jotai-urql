@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import { Provider as GraphqlProvider } from "urql";
 import { Provider } from "jotai";
 import { clientAtom } from "jotai-urql";
-import { client, ssrCache } from "../src/urqlClient";
+import { client, ssrCache } from "../lib/urqlClient";
 
 export default function MyApp({ Component, pageProps }) {
   if (pageProps.urqlState) {
