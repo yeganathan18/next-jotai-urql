@@ -1,0 +1,20 @@
+{
+  "name": "urql-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3006",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "graphql": "^15.5.0",
+    "jotai": "^1.13.0",
+    "jotai-urql": "^0.3.1",
+    "next": "^13.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "urql": "^2.0.1",
+    "wonka": "^6.1.2"
+  }
+}
